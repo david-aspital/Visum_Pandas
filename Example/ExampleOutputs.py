@@ -65,9 +65,6 @@ def create_data_frame(layout, temp_path=tempfile.gettempdir(), folderpath=None):
 if __name__ == '__main__':
     temp_path = tempfile.gettempdir()
 
-    # Do something - example code below with full demo in Example folder
-
-    '''
     # Include .llax extension, temp path location and folderpath of llax
     node_df = create_data_frame('Nodes.llax', temp_path, os.path.curdir)
     # Miss extension from layout file
@@ -80,4 +77,3 @@ if __name__ == '__main__':
     turns_in_df = create_data_frame('TurnInput.llax', folderpath='Layouts')
     # Can export the .att file elsewhere if required
     turns_out_df = create_data_frame('TurnOutput', temp_path='Exports')
-    '''

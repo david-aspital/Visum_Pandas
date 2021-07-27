@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listLayoutItem no="0">
+	<listLayoutCommonEntries activeNetObjectsFilter="false" baseEntriesBinaryNo="12056" crossSection="false" layoutIdentifier="LIST_LAYOUT_TURN" listTitle="Turns: Outputs" specialEntriesBinaryNo="2100" statisticsRowAverage="false" statisticsRowMaximum="false" statisticsRowMinimum="false" statisticsRowSum="false" synchroMode="MARK">
+		<attributeDefinitions>
+			<attributeDefinition aggregate="false" aggregationFunction="COMPARE" alignment="RIGHTALIGNMENT" attributeID="FROMNODENO" displayUnits="false" numberOfDecimalPlaces="0" stringFormatType="DEFAULTFMT" subAttributeID1="" subAttributeID2="" subAttributeID3="" useThousandsSeparator="false" weightedAverageAttribute="1.0"/>
+			<attributeDefinition aggregate="false" aggregationFunction="COMPARE" alignment="RIGHTALIGNMENT" attributeID="VIANODENO" displayUnits="false" numberOfDecimalPlaces="0" stringFormatType="DEFAULTFMT" subAttributeID1="" subAttributeID2="" subAttributeID3="" useThousandsSeparator="false" weightedAverageAttribute="1.0"/>
+			<attributeDefinition aggregate="false" aggregationFunction="COMPARE" alignment="RIGHTALIGNMENT" attributeID="TONODENO" displayUnits="false" numberOfDecimalPlaces="0" stringFormatType="DEFAULTFMT" subAttributeID1="" subAttributeID2="" subAttributeID3="" useThousandsSeparator="false" weightedAverageAttribute="1.0"/>
+			<attributeDefinition aggregate="false" aggregationFunction="COMPARE" alignment="LEFTALIGNMENT" attributeID="TYPENO" displayUnits="false" numberOfDecimalPlaces="0" stringFormatType="DEFAULTFMT" subAttributeID1="" subAttributeID2="" subAttributeID3="" useThousandsSeparator="false" weightedAverageAttribute="1.0"/>
+			<attributeDefinition aggregate="false" aggregationFunction="COMPARE" alignment="LEFTALIGNMENT" attributeID="TSYSSET" displayUnits="false" numberOfDecimalPlaces="0" stringFormatType="DEFAULTFMT" subAttributeID1="" subAttributeID2="" subAttributeID3="" useThousandsSeparator="false" weightedAverageAttribute="1.0"/>
+			<attributeDefinition aggregate="false" aggregationFunction="AVG" alignment="RIGHTALIGNMENT" attributeID="CAPPRT" displayUnits="false" numberOfDecimalPlaces="0" stringFormatType="DEFAULTFMT" subAttributeID1="" subAttributeID2="" subAttributeID3="" useThousandsSeparator="false" weightedAverageAttribute="1.0"/>
+			<attributeDefinition aggregate="false" aggregationFunction="AVG" alignment="RIGHTALIGNMENT" attributeID="ASSIGNICAFINALCAP" displayUnits="false" numberOfDecimalPlaces="0" stringFormatType="DEFAULTFMT" subAttributeID1="" subAttributeID2="" subAttributeID3="" useThousandsSeparator="false" weightedAverageAttribute="1.0"/>
+			<attributeDefinition aggregate="false" aggregationFunction="SUM" alignment="RIGHTALIGNMENT" attributeID="TCUR_PRTSYS" displayUnits="true" numberOfDecimalPlaces="0" stringFormatType="SECONDS" subAttributeID1="C" subAttributeID2="" subAttributeID3="" useThousandsSeparator="false" weightedAverageAttribute="1.0"/>
+			<attributeDefinition aggregate="false" aggregationFunction="SUM" alignment="RIGHTALIGNMENT" attributeID="ASSIGNICATCUR_PRTSYS" displayUnits="true" numberOfDecimalPlaces="0" stringFormatType="SECONDS" subAttributeID1="C" subAttributeID2="" subAttributeID3="" useThousandsSeparator="false" weightedAverageAttribute="1.0"/>
+			<attributeDefinition aggregate="false" aggregationFunction="SUM" alignment="RIGHTALIGNMENT" attributeID="VOLVEHPRT" displayUnits="false" numberOfDecimalPlaces="0" stringFormatType="DEFAULTFMT" subAttributeID1="AP" subAttributeID2="" subAttributeID3="" useThousandsSeparator="false" weightedAverageAttribute="1.0"/>
+			<attributeDefinition aggregate="false" aggregationFunction="SUM" alignment="RIGHTALIGNMENT" attributeID="ASSIGNICAFINALSMOOTHVOL" displayUnits="false" numberOfDecimalPlaces="3" stringFormatType="DEFAULTFMT" subAttributeID1="" subAttributeID2="" subAttributeID3="" useThousandsSeparator="false" weightedAverageAttribute="1.0"/>
+			<attributeDefinition aggregate="false" aggregationFunction="AVG" alignment="RIGHTALIGNMENT" attributeID="ASSIGNICAGEHASSIGNICA" displayUnits="false" numberOfDecimalPlaces="3" stringFormatType="DEFAULTFMT" subAttributeID1="" subAttributeID2="" subAttributeID3="" useThousandsSeparator="false" weightedAverageAttribute="1.0"/>
+			<attributeDefinition aggregate="false" aggregationFunction="AVG" alignment="RIGHTALIGNMENT" attributeID="ASSIGNICAGEHASSIGNASSIGN" displayUnits="false" numberOfDecimalPlaces="3" stringFormatType="DEFAULTFMT" subAttributeID1="" subAttributeID2="" subAttributeID3="" useThousandsSeparator="false" weightedAverageAttribute="1.0"/>
+			<attributeDefinition aggregate="false" aggregationFunction="AVG" alignment="RIGHTALIGNMENT" attributeID="ASSIGNICARELDIFFDELAY" displayUnits="false" numberOfDecimalPlaces="3" stringFormatType="DEFAULTFMT" subAttributeID1="" subAttributeID2="" subAttributeID3="" useThousandsSeparator="false" weightedAverageAttribute="1.0"/>
+		</attributeDefinitions>
+		<columnWidths>
+			<columnWidth width="72"/>
+			<columnWidth width="64"/>
+			<columnWidth width="60"/>
+			<columnWidth width="44"/>
+			<columnWidth width="48"/>
+			<columnWidth width="44"/>
+			<columnWidth width="100"/>
+			<columnWidth width="92"/>
+			<columnWidth width="144"/>
+			<columnWidth width="88"/>
+			<columnWidth width="152"/>
+			<columnWidth width="148"/>
+			<columnWidth width="164"/>
+			<columnWidth width="120"/>
+		</columnWidths>
+		<fontDefinition characterSet="0" clipPrecision="0" escapement="0" faceName="Arial" height="-11" italic="false" orientation="0" outPrecision="0" pitchAndFamily="0" quality="0" strikeOut="false" underline="false" weight="400" width="0"/>
+		<initialColumnSortings/>
+	</listLayoutCommonEntries>
+	<listGraphicParameterLayoutItems netObjectType="TURN">
+		<listGraphicParameters mode="BYEDITABILITY" usePassiveGraphicParameters="false">
+			<display>
+				<active classificationAttrID="NO" numDecPlaces="0" useClassifiedMode="false" useLayerOrder="false">
+					<uniform backgroundColor="ffffffff" textColor="ff000000"/>
+					<classified>
+						<class hasCustomLegendName="false" layerNo="1" legendName="&gt; " stringValue="*" upperLimit="INF">
+							<contents backgroundColor="ffffffff" textColor="ff000000"/>
+						</class>
+					</classified>
+				</active>
+				<passive>
+					<uniform backgroundColor="ffa8a8a8" textColor="ff000000"/>
+				</passive>
+			</display>
+		</listGraphicParameters>
+		<listGraphicParameters mode="BYEDITABILITY" usePassiveGraphicParameters="false">
+			<display>
+				<active classificationAttrID="NO" numDecPlaces="0" useClassifiedMode="false" useLayerOrder="false">
+					<uniform backgroundColor="ffffffff" textColor="ff000000"/>
+					<classified>
+						<class hasCustomLegendName="false" layerNo="1" legendName="&gt; " stringValue="*" upperLimit="INF">
+							<contents backgroundColor="ffffffff" textColor="ff000000"/>
+						</class>
+					</classified>
+				</active>
+				<passive>
+					<uniform backgroundColor="ffa8a8a8" textColor="ff000000"/>
+				</passive>
+			</display>
+		</listGraphicParameters>
+		<listGraphicParameters mode="BYEDITABILITY" usePassiveGraphicParameters="false">
+			<display>
+				<active classificationAttrID="NO" numDecPlaces="0" useClassifiedMode="false" useLayerOrder="false">
+					<uniform backgroundColor="ffffffff" textColor="ff000000"/>
+					<classified>
+						<class hasCustomLegendName="false" layerNo="1" legendName="&gt; " stringValue="*" upperLimit="INF">
+							<contents backgroundColor="ffffffff" textColor="ff000000"/>
+						</class>
+					</classified>
+				</active>
+				<passive>
+					<uniform backgroundColor="ffa8a8a8" textColor="ff000000"/>
+				</passive>
+			</display>
+		</listGraphicParameters>
+		<listGraphicParameters mode="BYEDITABILITY" usePassiveGraphicParameters="false">
+			<display>
+				<active classificationAttrID="NO" numDecPlaces="0" useClassifiedMode="false" useLayerOrder="false">
+					<uniform backgroundColor="ffffffff" textColor="ff000000"/>
+					<classified>
+						<class hasCustomLegendName="false" layerNo="1" legendName="&gt; " stringValue="*" upperLimit="INF">
+							<contents backgroundColor="ffffffff" textColor="ff000000"/>
+						</class>
+					</classified>
+				</active>
+				<passive>
+					<uniform backgroundColor="ffa8a8a8" textColor="ff000000"/>
+				</passive>
+			</display>
+		</listGraphicParameters>
+		<listGraphicParameters mode="BYEDITABILITY" usePassiveGraphicParameters="false">
+			<display>
+				<active classificationAttrID="NO" numDecPlaces="0" useClassifiedMode="false" useLayerOrder="false">
+					<uniform backgroundColor="ffffffff" textColor="ff000000"/>
+					<classified>
+						<class hasCustomLegendName="false" layerNo="1" legendName="&gt; " stringValue="*" upperLimit="INF">
+							<contents backgroundColor="ffffffff" textColor="ff000000"/>
+						</class>
+					</classified>
+				</active>
+				<passive>
+					<uniform backgroundColor="ffa8a8a8" textColor="ff000000"/>
+				</passive>
+			</display>
+		</listGraphicParameters>
+		<listGraphicParameters mode="BYEDITABILITY" usePassiveGraphicParameters="false">
+			<display>
+				<active classificationAttrID="NO" numDecPlaces="0" useClassifiedMode="false" useLayerOrder="false">
+					<uniform backgroundColor="ffffffff" textColor="ff000000"/>
+					<classified>
+						<class hasCustomLegendName="false" layerNo="1" legendName="&gt; " stringValue="*" upperLimit="INF">
+							<contents backgroundColor="ffffffff" textColor="ff000000"/>
+						</class>
+					</classified>
+				</active>
+				<passive>
+					<uniform backgroundColor="ffa8a8a8" textColor="ff000000"/>
+				</passive>
+			</display>
+		</listGraphicParameters>
+		<listGraphicParameters mode="BYEDITABILITY" usePassiveGraphicParameters="false">
+			<display>
+				<active classificationAttrID="NO" numDecPlaces="0" useClassifiedMode="false" useLayerOrder="false">
+					<uniform backgroundColor="ffffffff" textColor="ff000000"/>
+					<classified>
+						<class hasCustomLegendName="false" layerNo="1" legendName="&gt; " stringValue="*" upperLimit="INF">
+							<contents backgroundColor="ffffffff" textColor="ff000000"/>
+						</class>
+					</classified>
+				</active>
+				<passive>
+					<uniform backgroundColor="ffa8a8a8" textColor="ff000000"/>
+				</passive>
+			</display>
+		</listGraphicParameters>
+		<listGraphicParameters mode="BYEDITABILITY" usePassiveGraphicParameters="false">
+			<display>
+				<active classificationAttrID="NO" numDecPlaces="0" useClassifiedMode="false" useLayerOrder="false">
+					<uniform backgroundColor="ffffffff" textColor="ff000000"/>
+					<classified>
+						<class hasCustomLegendName="false" layerNo="1" legendName="&gt; " stringValue="*" upperLimit="INF">
+							<contents backgroundColor="ffffffff" textColor="ff000000"/>
+						</class>
+					</classified>
+				</active>
+				<passive>
+					<uniform backgroundColor="ffa8a8a8" textColor="ff000000"/>
+				</passive>
+			</display>
+		</listGraphicParameters>
+		<listGraphicParameters mode="BYEDITABILITY" usePassiveGraphicParameters="false">
+			<display>
+				<active classificationAttrID="NO" numDecPlaces="0" useClassifiedMode="false" useLayerOrder="false">
+					<uniform backgroundColor="ffffffff" textColor="ff000000"/>
+					<classified>
+						<class hasCustomLegendName="false" layerNo="1" legendName="&gt; " stringValue="*" upperLimit="INF">
+							<contents backgroundColor="ffffffff" textColor="ff000000"/>
+						</class>
+					</classified>
+				</active>
+				<passive>
+					<uniform backgroundColor="ffa8a8a8" textColor="ff000000"/>
+				</passive>
+			</display>
+		</listGraphicParameters>
+		<listGraphicParameters mode="BYEDITABILITY" usePassiveGraphicParameters="false">
+			<display>
+				<active classificationAttrID="NO" numDecPlaces="0" useClassifiedMode="false" useLayerOrder="false">
+					<uniform backgroundColor="ffffffff" textColor="ff000000"/>
+					<classified>
+						<class hasCustomLegendName="false" layerNo="1" legendName="&gt; " stringValue="*" upperLimit="INF">
+							<contents backgroundColor="ffffffff" textColor="ff000000"/>
+						</class>
+					</classified>
+				</active>
+				<passive>
+					<uniform backgroundColor="ffa8a8a8" textColor="ff000000"/>
+				</passive>
+			</display>
+		</listGraphicParameters>
+		<listGraphicParameters mode="BYEDITABILITY" usePassiveGraphicParameters="false">
+			<display>
+				<active classificationAttrID="NO" numDecPlaces="0" useClassifiedMode="false" useLayerOrder="false">
+					<uniform backgroundColor="ffffffff" textColor="ff000000"/>
+					<classified>
+						<class hasCustomLegendName="false" layerNo="1" legendName="&gt; " stringValue="*" upperLimit="INF">
+							<contents backgroundColor="ffffffff" textColor="ff000000"/>
+						</class>
+					</classified>
+				</active>
+				<passive>
+					<uniform backgroundColor="ffa8a8a8" textColor="ff000000"/>
+				</passive>
+			</display>
+		</listGraphicParameters>
+		<listGraphicParameters mode="BYATTRIBUTEVALUE" usePassiveGraphicParameters="false">
+			<display>
+				<active classificationAttrID="NO" numDecPlaces="0" useClassifiedMode="false" useLayerOrder="false">
+					<uniform backgroundColor="ffc0ffff" textColor="ff000000"/>
+					<classified>
+						<class hasCustomLegendName="false" layerNo="1" legendName="&gt; " stringValue="*" upperLimit="INF">
+							<contents backgroundColor="ffffffff" textColor="ff000000"/>
+						</class>
+					</classified>
+				</active>
+				<passive>
+					<uniform backgroundColor="ffa8a8a8" textColor="ff000000"/>
+				</passive>
+			</display>
+		</listGraphicParameters>
+		<listGraphicParameters mode="BYATTRIBUTEVALUE" usePassiveGraphicParameters="false">
+			<display>
+				<active classificationAttrID="LIKE COLUMN ATTRIBUTE" numDecPlaces="0" useClassifiedMode="false" useLayerOrder="false">
+					<uniform backgroundColor="ffc0ffff" textColor="ff000000"/>
+					<classified>
+						<class hasCustomLegendName="false" layerNo="1" legendName="&gt; " stringValue="*" upperLimit="INF">
+							<contents backgroundColor="ffffffff" textColor="ff000000"/>
+						</class>
+					</classified>
+				</active>
+				<passive>
+					<uniform backgroundColor="ffa8a8a8" textColor="ff000000"/>
+				</passive>
+			</display>
+		</listGraphicParameters>
+		<listGraphicParameters mode="BYATTRIBUTEVALUE" usePassiveGraphicParameters="false">
+			<display>
+				<active classificationAttrID="LIKE COLUMN ATTRIBUTE" numDecPlaces="0" useClassifiedMode="false" useLayerOrder="false">
+					<uniform backgroundColor="ffc0ffff" textColor="ff000000"/>
+					<classified>
+						<class hasCustomLegendName="false" layerNo="1" legendName="&gt; " stringValue="*" upperLimit="INF">
+							<contents backgroundColor="ffffffff" textColor="ff000000"/>
+						</class>
+					</classified>
+				</active>
+				<passive>
+					<uniform backgroundColor="ffa8a8a8" textColor="ff000000"/>
+				</passive>
+			</display>
+		</listGraphicParameters>
+	</listGraphicParameterLayoutItems>
+	<specialListSettings/>
+	<columnFilters>
+		<columnFilter/>
+		<columnFilter/>
+		<columnFilter/>
+		<columnFilter/>
+		<columnFilter>
+			<filterCriterionRelationEnum active="false" criterionType="CONTAINS" filterValueMulti="" filterValueSingle="B" filterValueString="" isMultiRelationEnum="true"/>
+		</columnFilter>
+		<columnFilter/>
+		<columnFilter/>
+		<columnFilter/>
+		<columnFilter/>
+		<columnFilter/>
+		<columnFilter/>
+		<columnFilter/>
+		<columnFilter/>
+		<columnFilter/>
+	</columnFilters>
+</listLayoutItem>
